@@ -13,6 +13,7 @@ app.use(
     '/api/social-interactions',
     require('./routes/api/social-interactions')
 );
+app.use('/api/reset', require('./routes/api/reset'));
 
 const PORT = process.env.PORT || 5000;
 
